@@ -1,5 +1,5 @@
 # Jaffa-Sparrow
-LLM in Native Tamil. Trained models of various sizes. Will upload them soon. Providing training scripts and weights to perform inference. Kaggle link for the data will be provided soon. Kindly use the same scripts to train LLM for any other language provided you have sufficient data. 
+A tiny language model trained in native tamil. The model was trained on multilingual c4 (mc4), news articles, tiny books, wikipedia datasets. Training was done on 2 x 4060ti gpu (Single host multi device strategy) with data parallelism. The model was later finetuned on tamil converstions datasets to be able to carry out multi-turn conversations.
 
 # Multi-GPU training 
 Uses distributed training (single host, multi-device training). Trained on 4060ti x 2 gpus with 16gb vram each. Kindly modify those line as per your requirement
