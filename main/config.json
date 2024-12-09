@@ -1,0 +1,12 @@
+{
+    "batch_size":1024,
+    "epochs":20,
+    "seqlen":200,
+    "buffer_size":100,
+    "vocab_size":32000,
+    "embed_dim":256,
+    "num_heads":4,
+    "num_layers":4,
+    "feed_forward_dim":512,
+    "generate_seqlen":100
+}
