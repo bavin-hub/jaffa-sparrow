@@ -5,4 +5,5 @@ A tiny language model trained in native tamil. The model was trained on multilin
 Uses distributed training (single host, multi-device training). Trained on 4060ti x 2 gpus with 16gb vram each. Kindly modify those line as per your requirement
 
 ### Generated text after 4 epochs
+![Screenshot from 2024-12-18 00-08-55](https://github.com/user-attachments/assets/5435cd9e-4ea3-4fd3-9fc9-446678e2727d)
 
