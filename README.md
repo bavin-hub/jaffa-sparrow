@@ -7,3 +7,7 @@ Uses distributed training (single host, multi-device training). Trained on 4060t
 ### Generated text after 4 epochs
 ![Screenshot from 2024-12-18 00-08-55](https://github.com/user-attachments/assets/5435cd9e-4ea3-4fd3-9fc9-446678e2727d)
 
+### Dataset link
+attaching drive link as the data is huge.
+
+
