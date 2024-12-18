@@ -9,5 +9,6 @@ Uses distributed training (single host, multi-device training). Trained on 4060t
 
 ### Dataset link
 attaching drive link as the data is huge.
+https://drive.google.com/file/d/1hqm5hfkF1QRqgYnBGXOqq2Ci9pOsAvTs/view?usp=drive_link
 
 
