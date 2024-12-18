@@ -65,6 +65,7 @@ wts_dir = os.path.join(cwd, "checkpoint_weights")
 wts_path = os.path.join(wts_dir, os.listdir(wts_dir)[0])
 start_toks = "இந்தியாவின் ஆகாஷ்"
 model_inference = create_model()
+print(model_inference.summary())
 model_inference.load_weights(wts_path)
 print("Weights Loaded...")
 res = inference(wts_path, model_inference, generate_seqlen, start_toks, cwd)
